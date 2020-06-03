@@ -34,6 +34,66 @@
 .breadcrumb-leave-active {
   position: absolute;
 }
+
+// element颜色覆盖
+.el-icon-info{
+  font-size: 16px;
+}
+.body-index{
+  .el-menu{
+    border-color: #165787;
+    background-color: #165787;
+    .el-submenu__title{
+      color: #fff;
+      i{
+        color: #fff;
+      }
+      &:hover{
+        background-color: rgba(255,255,255,.2);
+      }
+    }
+    .el-menu-item{
+      color: #fff;
+      i{
+        color: #fff;
+      }
+      &:focus{
+        background-color: transparent;
+      }
+      &.is-active{
+        color: #fff;
+        background-color: rgba(255,255,255,.2);
+        i{
+          color: #FFC670;
+        }
+        span{
+          color: #FFC670;
+        }
+      }
+      &:hover{
+        background-color: rgba(255,255,255,.2);
+      }
+    }
+  }
+
+  .el-breadcrumb__item{
+    span{
+      color: #606266;
+      a{
+        color: #606266;
+      }
+    }
+  }
+
+  .el-badge{
+    .el-badge__content{
+      border-color: #fff;
+    }
+  }
+}
+
+
+
 // 记住密码默认背景颜色和字体颜色，注意字体颜色不要和框的背景色一致
 input:-webkit-autofill,
 textarea:-webkit-autofill,
@@ -73,7 +133,7 @@ select:-webkit-autofill {
   }
   &.is-error {
     .custom-icon {
-      color: $color-R40;
+      color: #F56C6C;
     }
   }
 }
@@ -94,15 +154,13 @@ select:-webkit-autofill {
     .btn-prev:disabled,
     .btn-next:disabled {
       border-radius: 4px;
-      border: 1px solid;
-      @include bd-color(#dcdee2, $color-W10);
-      @include bg-color($color-W100, $color-W10);
+      border: 1px solid #dcdee2;
+      background-color: #fff;
     }
     .el-pager {
       li {
         color: #707378;
-        border: 1px solid;
-        @include bd-color(#dcdee2, $color-W10);
+        border: 1px solid #dcdee2;
       }
     }
   }
@@ -208,12 +266,12 @@ select:-webkit-autofill {
 // 主要按钮主颜色
 .body-index {
   .el-button--primary {
-    background-color: $color-B50;
-    border-color: $color-B50;
+    background-color: #207DC2;
+    border-color: #207DC2;
   }
   .el-button--primary.is-active, .el-button--primary:active, .el-button--primary:focus, .el-button--primary:hover {
-    background-color: $color-B30;
-    border-color: $color-B30;
+    background-color: #4C97CE;
+    border-color: #4C97CE;
   }
 }
 // h2标题样式
@@ -221,11 +279,11 @@ h2 {
   font-size: 20px;
   margin-bottom: 20px;
   letter-spacing: 1px;
-  @include font-color($color-G90, $color-W90);
+  color: #42464C;
 }
 // 内容阴影框
 .box-table {
-  @include bg-color($color-W100, $color-C70);
+  background-color: #fff;
   padding: 32px 24px;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   border-radius: 4px;

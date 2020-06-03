@@ -49,7 +49,7 @@ export default {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  @include bg-color($color-W100, $color-W80);
+  background-color: #fff;
   .wscn-http404-container {
     transform: translate(-50%, -50%);
     position: absolute;

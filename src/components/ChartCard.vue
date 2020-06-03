@@ -58,7 +58,7 @@ export default {
       position: relative;
       overflow: hidden;
       width: 100%;
-      color: $color-G70;
+      color: #9D9FA2;
       font-size: 14px;
       line-height: 22px;
     }
@@ -72,15 +72,14 @@ export default {
   }
 
   .chart-card-footer {
-    border-top: 1px solid;
-    @include bd-color($color-C20,$color-W10);
+    border-top: 1px solid #EBEEF5;
     padding-top: 9px;
     margin-top: 8px;
     .field {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      color: $color-G80;
+      color: #707378;
       margin: 0;
     }
   }
@@ -104,7 +103,7 @@ export default {
     text-overflow: ellipsis;
     word-break: break-all;
     white-space: nowrap;
-    @include font-color($color-D100,$color-W70);
+    color: #000;
     margin-top: 4px;
     margin-bottom: 0;
     font-size: 30px;

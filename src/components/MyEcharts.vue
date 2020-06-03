@@ -93,6 +93,6 @@ export default {
 </script>
 <style lang="scss" scoped>
 .echarts{
-  @include bg-color($color-W100);
+  background-color: #fff;
 }
 </style>

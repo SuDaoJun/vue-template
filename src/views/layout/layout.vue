@@ -139,7 +139,7 @@
     .layout-sidebar{
       transition: width 0.28s;
       width: 240px;
-      @include bg-color($color-B80,$color-C80);
+      background-color: #165787;
       height: 100%;
       position: fixed;
       top: 0;
@@ -151,7 +151,7 @@
         height: 64px;
         font-size: 24px;
         font-weight: 600;
-        color: $color-W100;
+        color: #fff;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -170,15 +170,14 @@
       margin-left: 240px;
       position: relative;
       .container-header{
-        @include bg-color($color-W100,$color-C80);
+        background-color: #fff;
         .info-header{
           height: 64px;
           padding: 0 24px;
           display: flex;
           align-items: center;
           justify-content: space-between;
-          border-bottom: 1px solid;
-          @include bd-color(#E7E8EA,$color-W10);
+          border-bottom: 1px solid #E7E8EA;
           .header-left{
             display: flex;
             align-items: center;
@@ -191,7 +190,7 @@
             }
             .header-breadcrumb{
               .no-redirect{
-                @include font-color($color-G70,$color-W40);
+                color: #9D9FA2;
                 cursor: text;
               }
             }
@@ -208,11 +207,11 @@
               cursor: pointer;
               .el-icon-bell{
                 font-size: 18px;
-                @include font-color($color-C40,$color-W80);
+                color: #606266;
               }
             }
             .el-dropdown-link{
-              @include font-color($color-C40,$color-W80);
+              color: #606266;
               display: flex;
               align-items: center;
               cursor: pointer;
@@ -227,7 +226,7 @@
         width: 100%;
         min-height: 100vh;
         padding: 120px 24px 0;
-        @include bg-color($color-G20,$color-G100);
+        background-color: #F9F9F9;
         position: relative;
         overflow: hidden;
       }

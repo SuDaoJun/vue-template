@@ -34,7 +34,7 @@
       <div v-if='tableData.slot'>
         <slot :name="tableData.slot" />
       </div>
-      <el-pagination background layout="total, prev, pager, next" :current-page.sync='pageObj.currentPage'
+      <el-pagination background :layout="pageObj.layout?pageObj.layout:'total, prev, pager, next'" :current-page.sync='pageObj.currentPage'
         :page-size='pageObj.pageSize' :total="pageObj.total" @current-change="pageChange">
       </el-pagination>
     </div>

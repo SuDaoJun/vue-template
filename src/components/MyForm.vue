@@ -289,23 +289,22 @@
     .btn-click {
       padding: 10px 20px;
       border-radius: 4px;
-      border: 1px solid;
+      border: 1px solid #207DC2;
       cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: center;
-      @include font-color($color-W100, $color-W100);
-      @include bg-color($color-B50, $color-B70);
-      @include bd-color($color-B50, $color-B70);
+      color: #fff;
+      background-color: #207DC2;
       .icon-show {
         margin-right: 5px;
         font-size: 16px;
       }
     }
     .btn-transparent {
-      @include font-color($color-G90, $color-W90);
-      @include bg-color($color-W100, $color-C50);
-      @include bd-color($color-G40, $color-W10);
+      color: #42464C;
+      background-color: #fff;
+      border: 1px solid #E2E3E3;
     }
   }
 }

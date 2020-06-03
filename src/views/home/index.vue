@@ -183,12 +183,12 @@
         display: flex;
         align-items: center;
         p {
-          color: $color-G80;
+          color: #707378;
           margin-right: 6px;
         }
         .box-num {
           span {
-            @include font-color($color-G90,$color-W30);
+            color: #42464C;
           }
         }
       }
@@ -200,14 +200,13 @@
   .index-list {
     border-radius: 4px;
     margin-bottom: 18px;
-    @include bg-color($color-W100,$color-C70);
+    background-color: #fff;
     overflow: hidden;
-    color: $color-G80;
+    color: #707378;
     box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
     .list-header {
       height: 55px;
-      border-bottom: 1px solid;
-      @include bd-color($color-C10,$color-W10);
+      border-bottom: 1px solid #e8e8e8;
       padding: 0 24px;
       margin-bottom: 24px;
       display: flex;
@@ -224,11 +223,11 @@
           font-size: 16px;
           cursor: pointer;
           &:hover {
-            color: $color-B50;
+            color: #207DC2;
           }
         }
         .tab-active {
-          color: $color-B50;
+          color: #207DC2;
           position: relative;
           &::after {
             content: "";
@@ -237,7 +236,7 @@
             position: absolute;
             left: 0;
             top: 54px;
-            background-color: $color-B50;
+            background-color: #207DC2;
           }
         }
       }
@@ -252,11 +251,11 @@
             padding: 0 15px;
             cursor: pointer;
             &:hover {
-              color: $color-B50;
+              color: #207DC2;
             }
           }
           .date-active {
-            color: $color-B50;
+            color: #207DC2;
           }
         }
       }
@@ -287,11 +286,11 @@
               text-align: center;
               margin-right: 24px;
               border-radius: 50%;
-              @include bg-color($color-G30,$color-W10);
+              background-color: #F2F2F2;
             }
             .rank-active {
-              color: $color-W100;
-              @include bg-color($color-B50,$color-B50);
+              color: #fff;
+              background-color: #207DC2;
             }
           }
         }
@@ -299,17 +298,16 @@
     }
   }
   .index-analysis {
-    color: $color-G90;
+    color: #42464C;
     margin-bottom: 24px;
     .analysis-line {
       padding: 16px 24px;
       border-radius: 4px;
-      border: 1px solid;
-      @include bd-color($color-C20);
-      @include bg-color($color-W100,$color-C70);
+      border: 1px solid #EBEEF5;
+      background-color: #fff;
       box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
       h3 {
-        @include font-color($color-G80,$color-W80);
+        color: #707378;
         font-size: 16px;
         font-weight: 500;
         margin-bottom: 24px;
@@ -318,26 +316,24 @@
     .analysis-pie {
       padding: 16px 0;
       border-radius: 4px;
-      border: 1px solid;
-      @include bd-color($color-C20);
-      @include bg-color($color-W100,$color-C70);
+      border: 1px solid #EBEEF5;
+      background-color: #fff;
       box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
       .pie-header {
         padding: 0 16px 16px;
-        border-bottom: 1px solid;
-        @include bd-color($color-G40,$color-W10);
+        border-bottom: 1px solid #E2E3E3;
         .header-title {
           margin-bottom: 15px;
           display: flex;
           align-items: center;
           justify-content: space-between;
           h3 {
-            @include font-color($color-G80,$color-W80);
+            color: #707378;
             font-size: 16px;
             font-weight: 500;
           }
           .title-icon {
-            color: $color-G80;
+            color: #707378;
             display: flex;
             align-items: center;
             i {
@@ -352,7 +348,7 @@
         padding: 32px 32px 0;
         position: relative;
         h4 {
-          color: $color-G80;
+          color: #707378;
           font-size: 16px;
           font-weight: 500;
         }

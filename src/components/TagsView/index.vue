@@ -191,8 +191,7 @@ export default {
 .tags-view-container {
   height: 34px;
   width: 100%;
-  border-bottom: 1px solid;
-  @include bd-color($color-C20,$color-D20);
+  border-bottom: 1px solid #EBEEF5;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 3px 0 rgba(0, 0, 0, .04);
   .tags-view-wrapper {
     .tags-view-item {
@@ -201,10 +200,9 @@ export default {
       cursor: pointer;
       height: 26px;
       line-height: 26px;
-      border: 1px solid;
-      @include bd-color($color-C20,$color-D30);
-      @include font-color($color-C40,$color-W50);
-      @include bg-color($color-W100,$color-W10);
+      border: 1px solid #EBEEF5;
+      color: #606266;
+      background-color: #fff;
       padding: 0 8px;
       font-size: 12px;
       margin-left: 5px;
@@ -216,12 +214,12 @@ export default {
         margin-right: 15px;
       }
       &.active {
-        @include bd-color($color-B40,$color-B70);
-        @include font-color($color-W100,$color-W100);
-        @include bg-color($color-B40,$color-B70);
+        border-color: #217DC2;
+        color: #fff;
+        background-color: #217DC2;
         &::before {
           content: '';
-          background: $color-W100;
+          background: #fff;
           display: inline-block;
           width: 8px;
           height: 8px;
@@ -234,8 +232,8 @@ export default {
   }
   .contextmenu {
     margin: 0;
-    @include bg-color($color-W100,$color-D70);
-    @include font-color($color-G80,$color-W70);
+    background-color: #fff;
+    color: #707378;
     z-index: 3000;
     position: absolute;
     list-style-type: none;
@@ -249,7 +247,7 @@ export default {
       padding: 7px 16px;
       cursor: pointer;
       &:hover {
-        @include bg-color($color-G30,$color-C80);
+        background-color: #F2F2F2;
       }
     }
   }
@@ -270,8 +268,8 @@ export default {
           vertical-align: -3px;
         }
         &:hover {
-          @include bg-color($color-G70,$color-W20);
-          color: $color-W100;
+          background-color: #9D9FA2;
+          color: #fff;
         }
       }
     }

@@ -176,7 +176,7 @@ export default {
   width: 100%;
   .upload-file {
     .el-upload {
-      border: 1px dashed $color-G70;
+      border: 1px dashed #9D9FA2;
       border-radius: 6px;
       cursor: pointer;
       position: relative;
